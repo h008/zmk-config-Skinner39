@@ -17,10 +17,10 @@
 
         number_layer {
             bindings = <
-  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans        &trans  &trans  &trans                                                  &trans
+  &kp F1        &kp F2   &kp F3       &kp F4        &kp F5                           &kp COLON           &kp NUMBER_7        &kp NUMBER_8  &kp NUMBER_9  &trans
+  &mt LSHFT F6  &kp F7   &mt LALT F8  &mt LCTRL F9  &mt LGUI F10                     &mt RGUI SEMICOLON  &mt RCTRL NUMBER_4  &mt RALT N5   &kp NUMBER_6  &trans
+  &kp F11       &kp F12  &kp F13      &kp F14       &kp PRINTSCREEN                  &kp N0              &kp NUMBER_1        &kp N2        &kp NUMBER_3  &trans
+  &trans        &trans   &trans       &trans        &trans           &trans  &trans  &trans                                                              &trans
             >;
         };
 
