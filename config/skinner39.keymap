@@ -17,7 +17,7 @@
   &kp COMMA    &kp PERIOD  &kp U           &kp L        &kp P                                         &kp J       &kp W        &kp R       &kp Y  &kp ESCAPE
   &mt LSHFT E  &kp I       &mt LEFT_ALT A  &mt LCTRL O  &mt LGUI MINUS                                &mt RGUI K  &mt RCTRL T  &mt RALT N  &kp S  &mt RSHIFT H
   &kp Q        &kp X       &kp C           &kp V        &kp F                                         &kp G       &kp D        &kp M       &kp Z  &kp B
-  &mkp LCLK    &mkp MCLK   &mkp RCLK       &lt 1 ENTER  &lt 2 SPACE     &mt LSHFT TAB  &kp BACKSPACE  &lt 4 DEL                                   &kp RIGHT_SHIFT
+  &mkp LCLK    &mkp MCLK   &mkp RCLK       &lt 1 ENTER  &lt 2 SPACE     &mt LSHFT TAB  &kp BACKSPACE  &lt 4 DEL                                   &kp ENTER
             >;
         };
 
@@ -50,10 +50,10 @@
 
         mouse_layer {
             bindings = <
-  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP      &trans                           &trans          &trans         &trans        &trans     &mkp LCLK
-  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_LEFT    &msc SCRL_RIGHT                  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
-  &trans          &trans          &trans           &msc SCRL_DOWN    &trans                           &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &mkp RCLK
-  &trans          &trans          &trans           &kp INT_MUHENKAN  &kp INT_HENKAN   &trans  &trans  &trans                                                  &mo 7
+  &trans          &mmv MOVE_UP      &trans           &msc SCRL_UP      &trans                           &trans          &trans         &trans        &trans     &mkp LCLK
+  &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &msc SCRL_LEFT    &msc SCRL_RIGHT                  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+  &trans          &mmv MOVE_Y(100)  &trans           &msc SCRL_DOWN    &trans                           &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &mkp RCLK
+  &trans          &trans            &trans           &kp INT_MUHENKAN  &kp INT_HENKAN   &trans  &trans  &trans                                                  &mo 7
             >;
         };
 
