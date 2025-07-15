@@ -20,7 +20,7 @@
         default_layer {
             bindings = <
   &kp COMMA    &kp PERIOD  &kp U           &kp L        &kp P                                         &kp J       &kp W        &kp R       &kp Y  &kp ESCAPE
-  &mt LSHFT E  &kp I       &mt LEFT_ALT A  &mt LCTRL O  &mt LGUI MINUS                                &mt RGUI K  &mt RCTRL T  &mt RALT N  &kp S  &mt RSHIFT H
+  &mt LSHFT E  &kp I       &mt LALT A  &mt LCTRL O  &mt LGUI MINUS                                &mt RGUI K  &mt RCTRL T  &mt RALT N  &kp S  &mt RSHIFT H
   &kp Q        &kp X       &kp C           &kp V        &kp F                                         &kp G       &kp D        &kp M       &kp Z  &kp B
   &mkp LCLK    &mkp MCLK   &mkp RCLK       &lt 1 ENTER  &lt 2 SPACE     &mt LSHFT TAB  &kp BACKSPACE  &lt 4 DEL                                   &kp ENTER
             >;
@@ -38,7 +38,7 @@
         symbol_layer {
             bindings = <
   &kp EXCLAMATION  &kp AT_SIGN  &kp HASH                &kp DOLLAR       &kp PERCENT                     &kp CARET       &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans           &trans       &mt LEFT_ALT BACKSLASH  &mt LCTRL SLASH  &mt LGUI GRAVE                  &mt RGUI MINUS  &mt RCTRL EQUAL  &mt RALT SQT       &kp LEFT_BRACKET      &mt RSHFT RIGHT_BRACKET
+  &trans           &trans       &mt LALT BACKSLASH  &mt LCTRL SLASH  &mt LGUI GRAVE                  &mt RGUI MINUS  &mt RCTRL EQUAL  &mt RALT SQT       &kp LEFT_BRACKET      &mt RSHFT RIGHT_BRACKET
   &trans           &trans       &kp PIPE                &kp QUESTION     &kp TILDE                       &kp UNDERSCORE  &kp PLUS         &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE
   &trans           &trans       &trans                  &trans           &trans          &trans  &trans  &trans                                                                    &trans
             >;
